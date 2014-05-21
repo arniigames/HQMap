@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:#6D7B8D;
+	
+}
+
+#mapPane {
+	width: 800px;
+	height: 400px;	
+}
+
+#ToolTipInfoBox{
+	opacity:0.8;
+	background-color:#FEFF82;
+	border:1px solid black;
+	
+}
+
+
+.bUI		{
+	background-color:#6D7B8D;
+}
+
+.pointBtn	{
+	background:url(/img/point_icon.png) no-repeat;
+	
+}
+
+.inputMode	{
+	cursor:crosshair !important;
+	height:20px;
+	
+}
+
+.dialogGlass{
+	background-color:#2841A5;
+	opacity:0.4;
+}
+.gwt-Label-Mp {
+
+	font-size:large;
+	font-family: Verdana, Ariel, 'sans-serif';
+	color:red;
+}
+.gwt-label-infoBox {
+color:red;
+background-color:#FEFF82;
+opacity:0.9;
+padding-bottom:2px;
+}
+.gwt-label-infoBox-outer {
+background-color:#FFFBA6;
+}
+loader-panel {
+	background-color: FFFBA6;
+}
+.gwt-ToggleButton {
+text-align:center;
+}
+#treePanel {
+	padding-top:10px;
+	background-color:white;
+}
+#atPan {
+	margin-top:30px;
+}
+treeP {
+	background-color:white;
+}
+vPanel-propbox {
+margin:20px;
+}
+Outer-PropPanel {
+padding:15px;
+}
+.gwt-Button-smtxt {
+font-size:smaller;
+}
+.gwt-HTML-wht {
+	color: black;
+	padding: 5px;
+	background-color: white;
+}
+.gwt-PushButton-adChild {
+background-image:url('img/addChild.jpg');
+}
+.gwt-PushButton-adSib {
+background-image:url('img/addSibling.jpg');
+margin:0 3px 0 3px;
+}
+prop-panel-item {
+border-bottom:1px solid black;
+}
+.gwt-Label-confirm {
+font-weight:bold;
+font-size:large;
+}
+.confirm-popup {
+margin:20px;
+}
+.gwt-Label-login {
+color:white;
+font-weight:bold;
+
+}
+.gwt-Label-logpnel {
+padding:3px;
+font-size:large;
+
+}
+.gwt-TextBox-login {
+margin:5px;
+}
+.gwt-Label-Bold {
+font-weight:bold;
+}
+.gwt-Label-italic {
+font-style:italic;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background: #4FFF54 !important;
+	color:red !important;
+	font-weight:bold;
+	
+
+}
+
+
+
+.fieldset-inputmode{
+	border:4px solid red;
+	
+}
+
+

@@ -1,0 +1,10 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="250px" height="21px" styleName="gwt-label-infoBox">
+		<g:HTML wordWrap="false" ui:field="innerText" width="245px" height="21px" styleName="gwt-label-infoBox" horizontalAlignment="ALIGN_CENTER"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

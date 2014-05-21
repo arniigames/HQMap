@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/antonminnion/Documents/workspace/gmaps/gwt-maps.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/antonminnion/Desktop/TOOLS/Jena-2.6.4/doc/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JENA"/>
+	<classpathentry kind="lib" path="/Users/antonminnion/Desktop/TOOLS/pellet-2.3.0/lib/servlet.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/antonminnion/Desktop/TOOLS/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

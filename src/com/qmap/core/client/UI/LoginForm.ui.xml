@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel width="292px" height="132px">
+			<g:Label text="Login as user…." height="30px" styleName="gwt-Label-logpnel"/>
+			<g:TextBox width="325px" height="30px" styleName="gwt-TextBox-login" ui:field="loginBox"/>
+			<g:HorizontalPanel width="346px" horizontalAlignment="ALIGN_CENTER">
+				<g:Cell horizontalAlignment="ALIGN_RIGHT">
+					<g:Button width="106px" ui:field="cancleBtn">Cancel</g:Button>
+				</g:Cell>
+				<g:Button width="218px" ui:field="okBtn">Ok</g:Button>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HorizontalPanel width="450px" height="253px">
+			<g:SimplePanel width="58px"/>
+			<g:VerticalPanel height="233px" width="333px">
+				<g:Cell horizontalAlignment="ALIGN_CENTER">
+					<g:Label text="Create New Object Property" styleName="gwt-Label-Bold"/>
+				</g:Cell>
+				<g:Cell verticalAlignment="ALIGN_BOTTOM">
+					<g:Label text="SubjectL" height="27px" horizontalAlignment="ALIGN_CENTER" ui:field="subjectL" styleName="gwt-Label-italic"/>
+				</g:Cell>
+				<g:Cell horizontalAlignment="ALIGN_CENTER">
+					<g:Image url="client_resources/dwnArrow.png" width="60px" height="30px"/>
+				</g:Cell>
+				<g:TextBox width="330px" height="31px" ui:field="pred" textAlignment="ALIGN_CENTER"/>
+				<g:Cell horizontalAlignment="ALIGN_CENTER">
+					<g:Image height="30px" url="client_resources/dwnArrow.png" width="60px"/>
+				</g:Cell>
+				<g:Cell verticalAlignment="ALIGN_MIDDLE">
+					<g:Label text="ObjectL" height="25px" horizontalAlignment="ALIGN_CENTER" ui:field="objectL" styleName="gwt-Label-italic"/>
+				</g:Cell>
+				<g:HorizontalPanel width="341px" height="29px">
+					<g:Button text="Cancel" width="88px" height="25px" ui:field="cancelButton"/>
+					<g:Button width="255px" height="25px" ui:field="okButton">Ok</g:Button>
+				</g:HorizontalPanel>
+			</g:VerticalPanel>
+			<g:SimplePanel width="66px"/>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

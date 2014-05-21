@@ -1,0 +1,34 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="1450px" height="750px" styleName="bUI">
+		<g:HorizontalPanel width="1350px">
+			<g:VerticalPanel height="100%" width="100%">
+				<g:HorizontalPanel height="550px" horizontalAlignment="ALIGN_RIGHT" spacing="10" width="100%">
+					<g:SimplePanel height="612px" width="105px" ui:field="buttonPanrl">
+						<g:FormPanel width="111px" height="607px" styleName="SideButtons">
+							<g:VerticalPanel width="50px" height="202px" spacing="5">
+								<g:Button width="100px" height="50px" ui:field="propertiesButton" text="Properties Mode" enabled="false"/>
+								<g:Button width="100px" height="50px" text="Enter Input Mode" ui:field="inputModeBtn" enabled="false"/>
+								<g:Button height="50px" text="Login" width="100px" ui:field="loginBtn"/>
+								<g:Label text="Not Logged In" height="61px" horizontalAlignment="ALIGN_CENTER" ui:field="loginLabel" styleName="gwt-Label-login" width="100px"/>
+							</g:VerticalPanel>
+						</g:FormPanel>
+					</g:SimplePanel>
+					<g:CaptionPanel captionText="  Interactive Campus Map " height="591px" width="816px" ui:field="mapHolder" styleName="Stored Objects"/>
+					<g:Cell width="450px">
+						<g:AbsolutePanel height="713px">
+							<g:at left="-37" top="0">
+								<g:SimplePanel width="400px" height="693px" ui:field="attachPanel"/>
+							</g:at>
+						</g:AbsolutePanel>
+					</g:Cell>
+				</g:HorizontalPanel>
+			</g:VerticalPanel>
+			
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

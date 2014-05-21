@@ -1,0 +1,611 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building">
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <hasShape rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_Shape"/>
+    <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashton_Building</hasTitle>
+    <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of the department of computer science. Formerly the faculty of arts. Art Deco architecture.</hasDescription>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Faculty_Building"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#someRelationship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_1">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9665100575402903</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40633191799098</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_4">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966338396163337</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40478125216413</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area"/>
+    <rdf:rest rdf:nodeID="A1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:nodeID="A3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_4">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9679560663134907</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40285740991331</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#latitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdfs:subClassOf rdf:nodeID="A4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_Shape">
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_6"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_5"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_4"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_3"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_2"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_1"/>
+    <hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasArea>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_2">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9685938358306885</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40301589741811</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="A8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_10">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.96598196047853</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.408588170885096</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#ownerReference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_2">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9665100575402903</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40648541804249</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#disjoin">
+    <owl:propertyChainAxiom rdf:nodeID="A2"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:propertyChainAxiom rdf:nodeID="A9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <owl:propertyChainAxiom rdf:nodeID="A10"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <owl:propertyChainAxiom rdf:nodeID="A11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#touches">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <owl:propertyChainAxiom rdf:nodeID="A12"/>
+    <owl:propertyChainAxiom rdf:nodeID="A13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_5">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966338396163337</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40478125216413</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_1">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966662645339966</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.404173620210884</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#within"/>
+    <rdf:rest rdf:nodeID="A14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#contains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+    <owl:propertyChainAxiom rdf:nodeID="A15"/>
+    <owl:propertyChainAxiom rdf:nodeID="A16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry"/>
+    <rdfs:subClassOf rdf:nodeID="A17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#disjoin"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_5">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9685354234607075</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40353541966474</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#overlaps"/>
+    <rdf:rest rdf:nodeID="A20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_3">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.968357801437378</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40293274484471</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Public_House">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Leisure_Building"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Administration_Building">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_2">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9667913913726807</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40342526156385</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+    <rdf:rest rdf:nodeID="A21"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_Shape">
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_9"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_10"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_6"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_1"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_12"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_8"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_14"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_11"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_3"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_16"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_13"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_5"/>
+    <hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasArea>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_2"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_15"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_7"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#contains"/>
+    <rdf:rest rdf:nodeID="A18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_2">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9666066170648264</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40458936932696</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasShape"/>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office">
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <hasShape rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_Shape"/>
+    <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accomodation_Office</hasTitle>
+    <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accomodation office is situated in the liverpool guild of students.</hasDescription>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Administration_Building"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_2">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.967205047789321</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40101521565352</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#touches"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_12">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.961711883726821</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4062601423437</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasPoints"/>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar">
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <hasShape rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_Shape"/>
+    <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Font_Bar</hasTitle>
+    <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Popular drinking location for students.</hasDescription>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Public_House"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_Shape">
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_5"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_4"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_3"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_2"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_1"/>
+    <hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasArea>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasShape"/>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polyline"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#heffered">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus">
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <hasShape rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_Shape"/>
+    <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University_of_Liverpool_campus</hasTitle>
+    <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The univeristy campus is situated in the eastern side of central liverpool. It is adjacent to the Metropolitan cathedral, the Royal Liverpool hospital and John Moore's University</hasDescription>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_Campus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_3">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9669690133960103</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40276786064783</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_3">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966338396163337</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40458297321748</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:nodeID="A27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_3">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966104745864868</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4033932801318</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#contains"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_11">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9622697832019185</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.407667207792095</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_1">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.96830415725708</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.403252561545166</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#overlaps"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_5">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9681003093719482</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40311184249315</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_4">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.965986728668213</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40414803551718</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasShape">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_5">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966220378966682</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40635110552771</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_8">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9697370530993794</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.405735678770434</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_14">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9609179498584126</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40436692630711</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Faculty_Building">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#within"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polyline"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#within">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#contains"/>
+    <owl:propertyChainAxiom rdf:nodeID="A32"/>
+    <owl:propertyChainAxiom rdf:nodeID="A33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_5">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.965986728668213</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40414803551718</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_6">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966220378966682</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40635110552771</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_4">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9681003093719482</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40311184249315</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_1">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.961432933989272</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40069538213552</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_13">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9611968995959614</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.4062601423437</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#longitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#within"/>
+    <rdf:rest rdf:nodeID="A22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_9">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.970423698607192</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.408843990427975</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#touches"/>
+    <rdf:rest rdf:nodeID="A29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_Campus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+    <rdf:rest rdf:nodeID="A31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Accomodation_Office_point_1">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966595888228767</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40479404432249</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:nodeID="A23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Leisure_Building">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#overlaps">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Area"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <owl:propertyChainAxiom rdf:nodeID="A19"/>
+    <owl:propertyChainAxiom rdf:nodeID="A5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Path"/>
+    <rdf:rest rdf:nodeID="A34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_16">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9610252382190083</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.403010922501366</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="A0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_3">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966563701720588</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40666450073594</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_Shape">
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_5"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_4"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_3"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_2"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Font_Bar_point_1"/>
+    <hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasArea>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_Shape">
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_5"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_4"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_3"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_2"/>
+    <hasPoints rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_point_1"/>
+    <hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasArea>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polygon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#disjoin"/>
+    <rdf:rest rdf:nodeID="A26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_6">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.966926098051772</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.405070496157684</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Path">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Location"/>
+    <rdfs:subClassOf rdf:nodeID="A25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#contains"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasPoints"/>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Polyline">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry"/>
+    <rdfs:subClassOf rdf:nodeID="A24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#hasPoints">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Geometry"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal"/>
+    <rdf:rest rdf:nodeID="A30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Ashton_Building_point_4">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.96626329431092</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40669008391632</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#equal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre">
+    <ownerReference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">admin1612</ownerReference>
+    <hasShape rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Sports_Centre_Shape"/>
+    <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports_Centre</hasTitle>
+    <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Principal sports facility for campus. Has 2 sports halls and a gym.</hasDescription>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Leisure_Building"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_15">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.9610252382190083</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.403010922501366</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#University_of_Liverpool_campus_point_7">
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.968320846739516</longitude>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.40588918097335</latitude>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#disjoin"/>
+    <rdf:rest rdf:nodeID="A28"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#Structure"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/ontologies/2012/1/Ontology1328444427428.owl#disjoin"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

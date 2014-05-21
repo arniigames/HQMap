@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="550px" styleName="confirm-popup">
+		<g:Label text="Please confirm the following object property relationships:" styleName="gwt-Label-confirm" width="545px"/>
+		<g:VerticalPanel width="550px" height="300px">
+			<g:ScrollPanel height="240px">
+				<g:HTMLPanel width="100%" height="100%" ui:field="scrollText"/>
+			</g:ScrollPanel>
+			<g:HorizontalPanel width="550px" height="39px">
+				<g:Button width="146px" height="37px" text="Cancel" ui:field="cancelBtn"/>
+				<g:Button width="395px" height="37px" ui:field="confirmButton">Confirm</g:Button>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="50px" height="75px" styleName="loader-panel">
+		<g:VerticalPanel styleName="loader-panel" width="100%">
+			<g:Image url="client_resources/ajax-loader.gif"/>
+			<g:Label text="Loading"/>
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

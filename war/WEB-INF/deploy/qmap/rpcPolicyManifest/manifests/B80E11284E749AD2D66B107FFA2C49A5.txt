@@ -1,0 +1,2 @@
+serviceClass: com.qmap.core.client.ServerSide
+path: 6D084E3BC4D172B5DF039364F14E06FF.gwt.rpc

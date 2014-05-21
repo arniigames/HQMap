@@ -1,0 +1,51 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.qmap.core.client.obj" xmlns:p2="urn:import:com.qmap.core.client.UI">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="400px" height="550px">
+		<g:HorizontalPanel height="540px" horizontalAlignment="ALIGN_CENTER" width="378px" verticalAlignment="ALIGN_TOP">
+			<g:Cell horizontalAlignment="ALIGN_CENTER" verticalAlignment="ALIGN_MIDDLE">
+				<g:SimplePanel height="95%" width="350px">
+				<g:FormPanel width="350px" height="100%" ui:field="descriptionForm">
+					<g:VerticalPanel width="348px" height="100%">
+						<g:Cell verticalAlignment="ALIGN_MIDDLE">
+							<g:CaptionPanel captionText="Location Name" height="20%" width="90%">
+							<g:TextBox width="95%" height="100%" alignment="LEFT" maxLength="100" textAlignment="ALIGN_LEFT" visibleLength="100" ui:field="titleInput"/>
+						</g:CaptionPanel>
+						</g:Cell>
+						<g:Cell verticalAlignment="ALIGN_MIDDLE" width="100%&#10;" height="100%">
+							<g:CaptionPanel captionText="Description" width="90%" height="208px">
+							<g:TextArea width="95%" height="90%" ui:field="descriptionInput" visibleLines="4" textAlignment="ALIGN_LEFT" alignment="LEFT" characterWidth="80"/>
+						</g:CaptionPanel>
+						</g:Cell>
+						<g:CaptionPanel captionText="ClassTree" height="238px" width="90%">
+							<g:VerticalPanel width="5cm" height="3cm">
+								<g:HorizontalPanel width="239px" height="41px">
+									<g:Button styleName="gwt-Button-smtxt" ui:field="newSubClassButton" enabled="false" height="31px" width="133px" text="New Subclass...">New Subclass</g:Button>
+								</g:HorizontalPanel>
+								
+							<g:ScrollPanel ui:field="treePanel" width="312px" height="207px">
+								
+								
+							</g:ScrollPanel>
+						</g:VerticalPanel>
+						</g:CaptionPanel>
+						<g:Cell width="100%" height="100px" horizontalAlignment="ALIGN_CENTER">
+							<g:HorizontalPanel width="342px" height="72px" horizontalAlignment="ALIGN_CENTER" verticalAlignment="ALIGN_MIDDLE">
+								<g:Cell width="20%" height="100%">
+									<g:Button height="29px" width="100%" ui:field="cancelButton">CANCEL</g:Button>
+								</g:Cell>
+								<g:Cell height="100%" width="80%">
+									<g:Button height="29px" width="256px" ui:field="createLocationButton" enabled="false">CREATE LOCATION</g:Button>
+								</g:Cell>
+						</g:HorizontalPanel>
+						</g:Cell>
+					</g:VerticalPanel>
+				</g:FormPanel>
+			</g:SimplePanel>
+			</g:Cell>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
